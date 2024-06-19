@@ -9,7 +9,7 @@ function Button() {
         borderRadius: '5px',
         border: 'none',
         cursor: 'pointer'
-    }
+    } 
 
     return (
         <>
