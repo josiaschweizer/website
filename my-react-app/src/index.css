@@ -1,7 +1,7 @@
-.card{
+.card {
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px;
-  box-shadow: 5px 5px 5px  hsla(0, 0%, 0%, 0.13);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.13);
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -9,32 +9,50 @@
   display: inline-block;
 }
 
-.card .card-image{
+.card .card-image {
   max-width: 60%;
   height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
-.card .card-title{
+.card .card-title {
   font-family: Arial, sans-serif;
   margin: 0;
   color: hsl(0, 0%, 20px);
 }
 
-.card .card-text{
+.card .card-text {
   font-family: Arial, sans-serif;
   color: hsl(0, 0%, 30%);
 }
 
-.student{
+.student {
   font-family: Arial, sans-serif;
   font-size: 2em;
   padding: 10px;
   border: 1px solid hsl(0, 0%, 50%, 0.8);
 }
 
-.studen p{
+.studen p {
   margin: 0;
 }
 
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: rgb(13, 214, 13);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt {
+  font-size: 2.5em;
+  background-color: rgb(209, 19, 19);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
